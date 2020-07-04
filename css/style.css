@@ -23,11 +23,7 @@ header{
 
     padding: 5px 15px
 }
-.header__content h1{
-    font-size: 56px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
+
 .header__content nav ul{
     list-style: none;
     display: flex;
@@ -39,6 +35,15 @@ header{
     padding: 10px 20px;
     margin: 0 15px;
     transition: all 0.7s;
+}
+.header__content h1{
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-bottom: none;
+}
+.header__content h1 a{
+    border-bottom: none;
 }
 .header__content a span{
     color: #00cdce;
@@ -218,9 +223,17 @@ header{
     margin: 10px 0;
     font-size: 19px;
     transition: all 0.7s;
+
+    border: none;
+    border-radius: 0px;
 }
 .blog__text button:hover, .more__text button:hover{
     color: white;
+    border: none;
+    background-color: black;
+}
+.blog__text .btn-primary.focus, .btn-primary:focus{
+    box-shadow: none;
 }
 .myModal .modal-body img{
     width: 100%;
@@ -290,6 +303,7 @@ header{
 .more__text p{
     line-height: 30px;
     margin: 20px 0;
+    color: white;
 }
     /* PORTFOLIO */
 .portfolio{
@@ -389,16 +403,19 @@ header{
     text-align: center;
 }
 .subcribe__content{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
-    
+}
+.subcribe__content p{
+    margin-top: 50px;
+    color: white;
 }
 .subcribe__content input{
     display: block;
     margin: 20px auto;
-    padding: 5px 0px;
-    padding-right: 300px;
+    padding: 10px 0px;
+    width: 72%;
     
 }
 .subcribe__content button{
@@ -424,51 +441,49 @@ header{
     text-align: center;
 }
 .agents__content{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
 }
 .agents__item{
     width: 25%;
-    min-height: 510px;
     padding: 0 15px;
 }
 .agents__item--content{
     width: 100%;
     height: 100%;
     text-align: center;
-    position: relative;
 }
 .agents__item img{
     width: 100%;
-    height: 100%;
-    display: block;
 }
 .agents__text{
     background-color: rgba(0, 0, 0, 0.79);
     width: 100%;
     padding: 20px 0;
-
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 .agents__text h3{
     color: #00cdce;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 .agents__text h3:hover{
     color: white;
+   
 }
 .agents__text p{
     color: white;
+    font-size: 0.9em;
+    margin: 0.5rem 0;
 }
 .agent__social i{
     color: white;
     border: 2px solid white;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     margin: 0 10px;
     transition: all 0.7s;
 }
@@ -503,7 +518,8 @@ header{
 .contact__content{
     width: 70%;
     margin: 50px auto;
-
+}
+.contact__content form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
@@ -511,20 +527,41 @@ header{
 .contact__content textarea{
     grid-row: 1 / span 3;
     grid-column: 2;
+
     border: none;
     border-bottom: 2px solid #999;
     background-color: rgb(239, 239, 239);
+
+    resize: none;
+    transition: all 0.7s;
+}
+.contact__content textarea:hover,.contact__content textarea:focus{
+    outline: none;
+    border-bottom: 2px solid black;
 }
 .contact__content input{
     padding: 0.8em;
     font-size: 1em;
+    transition: all 0.7s;
+
     border: none;
     border-bottom: 2px solid #999;
     background-color: rgb(239, 239, 239);
 }
+.contact__content input:hover,.contact__content input:focus{
+    outline: none;
+    border-bottom: 2px solid black;
+}
 .contact__content button{
     background-color: black;
     color: white;
+    border: none;
+    transition: all 0.7s;
+}
+.contact__content button:hover{
+    background-color: #00cdce;
+    color: black;
+
 }
 /* FOOTER */
 footer{
