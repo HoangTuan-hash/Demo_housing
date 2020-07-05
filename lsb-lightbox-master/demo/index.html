@@ -7,6 +7,17 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <!-- BOOTSTRAP4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <!-- MAGIFIC-POPUP VIDEO -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="stylesheet" href="../src/lsb.css" />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="../src/lsb.js"></script>
@@ -29,433 +40,510 @@
         >
           <img src="img/summer_days_prev.jpg" alt="Summer days" />
         </a>
-        <a
-          href="img/lucy_wilde.jpg"
-          class="lsb-preview"
-          data-lsb-group="header"
-        >
-          <img
-            src="img/lucy_wilde_prev.jpg"
-            alt='Lucy Wilde from "Despicable Me 2"'
-          />
-        </a>
-        <a
-          href="img/6_children_game_concepts.jpg"
-          class="lsb-preview"
-          data-lsb-group="header"
-        >
-          <img
-            src="img/6_children_game_concepts_prev.jpg"
-            alt="Children Game Concept"
-          />
-        </a>
-        <a
-          href="img/tiny_vacation.jpg"
-          class="lsb-preview"
-          data-lsb-group="header"
-        >
-          <img src="img/tiny_vacation_prev.jpg" alt="Tiny Vacation" />
-        </a>
       </div>
     </header>
-
-    <article>
-      <section class="info">
-        <div class="default-block">
-          <div class="content">
-            <h2>About</h2>
-            <p>
-              LightSpeedBox is a jQuery plugin that represents a fancy image
-              preview box (also called a lightbox).
-            </p>
-            <p>
-              Project's
-              <a href="https://github.com/AlexEmashev/lsb-lightbox"
-                >Github page</a
-              >.
-            </p>
-
-            <h3>Key features:</h3>
-            <ul>
-              <li>Click thumbnail to show the lightbox</li>
-              <li>Individual image preview as well as gallery</li>
-              <li>Responsive</li>
-              <li>Slideshow (auto playback)</li>
-              <li>
-                Controls: next, previous image, close button, keyboard, swipe
-                for touch screens
-              </li>
-              <li>Smooth transitions and animations</li>
-              <li>Localization</li>
-              <li>Open source</li>
-              <li>
-                Works in webkit browsers, FireFox, IE > 9 (in IE9 plugin is
-                still usable, though layout is not really that great).
-              </li>
-            </ul>
-
-            <h2>Installation</h2>
-            <h3>Manual Installation</h3>
-            <p>
-              For manual installation just include these two files into your
-              page.
-            </p>
-            <p>
-              <a
-                href="https://cdn.rawgit.com/AlexEmashev/lsb-lightbox/master/dist/lsb.min.js"
-                >lsb.min.js</a
-              >
-              <br />
-              <a
-                href="https://cdn.rawgit.com/AlexEmashev/lsb-lightbox/master/dist/lsb.css"
-                >lsb.css</a
-              >
-            </p>
-            <h3>Install using Bower</h3>
-            <p>
-              Use following command:
-              <strong>bower install lightspeedbox</strong> or
-              <strong>bower install lightspeedbox --save</strong> to save to
-              your project as dependency.
-            </p>
+      <!-- HEADER -->
+      <header >
+          <div class="header__content">
+              <h1> 
+                  <a href="#home">Hous<span>ing</span></a> 
+              </h1>
+              <nav>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#blog">Blog</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#agents">Agents</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </nav>
           </div>
-        </div>
+      </header>
+      <!-- CAROUSEL -->
+      <section class="carousel" id="home">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <div class="carousel__item">
+                          <img src="./img/b1.jpg" alt="">
+                          <div class="carousel__text">
+                              <h2>Lorem ipsum dolor sit</h2>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cupiditate.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="carousel__item">
+                          <img src="./img/b2.jpg" alt="">
+                          <div class="carousel__text">
+                              <h2>Lorem ipsum dolor sit</h2>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cupiditate.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="carousel__item">
+                          <img src="./img/b3.jpg" alt="">
+                          <div class="carousel__text">
+                              <h2>Lorem ipsum dolor sit</h2>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cupiditate.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="carousel__item">
+                          <img src="./img/b4.jpg" alt="">
+                          <div class="carousel__text">
+                              <h2>Lorem ipsum dolor sit</h2>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cupiditate.</p>
+                          </div>
+                      </div>
+                  </div>
+                 
+              </div>
       </section>
-
-      <section class="example">
-        <div class="default-block">
-          <div class="content">
-            <h2>Individual image preview</h2>
-            <p>
-              To preview a single image with LSB lightbox, use class
-              <strong>'.lsb-preview'</strong> on <strong>&lt;a&gt;</strong> tag
-              of an image. And don't forget to activate a plugin in JavaScript
-              code.
-            </p>
-            <div class="code">
-              &lt;script&gt;
-              <br />&nbsp;&nbsp;$(window).load(function()&nbsp;{
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;$.fn.lightspeedBox();
-              <br />&nbsp;&nbsp;}); <br />&lt;/script&gt;
-              <br />
-              <br />
-              &lt;a&nbsp;href=&quot;img/img01_fullsize.jpg&quot;&nbsp;class=&quot;lsb-preview&quot;&gt;
-              <br />
-              &nbsp;&nbsp;&lt;img&nbsp;src=&quot;img/img01_prev.jpg&quot;&nbsp;alt=&quot;Image&nbsp;Title&quot;&gt;
-              <br />
-              &lt;/a&gt;
-            </div>
+      <!-- INTRO -->
+      <section class="intro" id="about">
+          <h2 >About</h2>
+          <div class="intro__content">
+              <div class="intro__item">
+                  <i class="fa fa-home"></i>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+              </div>
+              <div class="intro__item">
+                  <i class="fa fa-key"></i>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+              </div>
+              <div class="intro__item">
+                  <i class="fa fa-money-bill-alt"></i>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+              </div>
           </div>
-        </div>
-        <div class="accent-block">
-          <div class="content showcase single-image">
-            <p>
-              This is some text, an article if you like. The article that should
-              display individual images like the one below.
-            </p>
-            <a href="img/a_cat_and_a_balloon.jpg" class="lsb-preview single">
-              <img
-                src="img/a_cat_and_a_balloon_prev.jpg"
-                alt="A cat and a baloon"
-              />
-            </a>
-            <p>
-              Or check this one too. This image got no particular purpose other
-              than display the feature.
-            </p>
-            <a href="img/a_survivor.jpg" class="lsb-preview single">
-              <img src="img/a_survivor_prev.jpg" alt="Survivor" />
-            </a>
+          <div class="intro__text">
+              <h3>About us</h3>
+              <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed odio consequat, tristique elit sed, molestie nulla. Mauris et quam leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt ut velit id euismod.vulputate turpis porta ex sodales, dignissim hendrerit eros sagittis. Curabitur lacinia dui ut luctus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis</p>
           </div>
-        </div>
       </section>
-
-      <section class="example">
-        <div class="default-block">
-          <div class="content">
-            <h2>Lightbox for Gallery</h2>
-            <p>
-              To let lightbox go through image gallery (or group) just add data
-              attribute <strong>'data-lsb-group'</strong> with appropriate value
-              to each preview in group.
-            </p>
-            <p>
-              You can use as many groups as you need on a single page as well as
-              mixing them with a single image.
-            </p>
-            <div class="code">
-              &lt;script&gt;
-              <br />&nbsp;&nbsp;$(window).load(function()&nbsp;{
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;$.fn.lightspeedBox();
-              <br />&nbsp;&nbsp;}); <br />&lt;/script&gt;&nbsp;
-              <br />
-              <br />&lt;a&nbsp;href=&quot;img/img01_fullsize.jpg&quot;&nbsp;class=&quot;lsb-preview&quot;&nbsp;data-lsb-group=&quot;gallery1&quot;&gt;
-              <br />&nbsp;&nbsp;&lt;img&nbsp;src=&quot;img/img01_prev.jpg&quot;&nbsp;alt=&quot;Image&nbsp;Title&quot;&gt;
-              <br />&lt;/a&gt;
-              <br />&lt;a&nbsp;href=&quot;img/img02_fullsize.jpg&quot;&nbsp;class=&quot;lsb-preview&nbsp;&amp;quot2&amp;quot&quot;&nbsp;data-lsb-group=&quot;gallery1&quot;&gt;
-              <br />&nbsp;&nbsp;&lt;img&nbsp;src=&quot;img/img02_prev.jpg&quot;&nbsp;alt=&quot;Image&nbsp;Title&nbsp;&amp;quot3&amp;quot&quot;&gt;
-              <br />&lt;/a&gt;
-              <br />&lt;a&nbsp;href=&quot;img/img03_fullsize.jpg&quot;&nbsp;class=&quot;lsb-preview&quot;&nbsp;data-lsb-group=&quot;gallery1&quot;&gt;
-              <br />&nbsp;&nbsp;&lt;img&nbsp;src=&quot;img/img03_prev.jpg&quot;&nbsp;alt=&quot;Image&nbsp;Title&quot;&gt;
-              <br />&lt;/a&gt;
-            </div>
+      <!-- NUMBER -->
+      <section class="number">
+          <h2>Starts</h2>
+          <div class="number__content">
+              <div class="number__item">
+                  <p class="counter">3500</p>
+                  <p >Clients</p>
+              </div>
+              <div class="number__item">
+                  <p class="counter">650</p>
+                  <p >Plans</p>
+              </div>
+              <div class="number__item">
+                  <p class="counter">1021</p>
+                  <p >Projects</p>
+              </div>
+              <div class="number__item">
+                  <p class="counter">1010</p>
+                  <p >Likes</p>
+              </div>
           </div>
-        </div>
-        <div class="accent-block">
-          <div class="content showcase gallery">
-            <a
-              href="img/lang__yie_ar_kung_fu.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img
-                src="img/lang__yie_ar_kung_fu_prev.jpg"
-                alt='Lang from "Yie Ar Kung Fu"'
-              />
-            </a>
-            <a
-              href="img/cobalt_blades.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img
-                src="img/cobalt_blades_prev.jpg"
-                alt="Cobald Blades cursor pack"
-              />
-            </a>
-            <a
-              href="img/docs_flow_system_splash_screens.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img
-                src="img/docs_flow_system_splash_screens_prev.jpg"
-                alt="Document Flow System Software Splash Screens"
-              />
-            </a>
-            <a
-              href="img/zhenya_from_everlasting_summer.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img
-                src="img/zhenya_from_everlasting_summer_prev.jpg"
-                alt='Zhenya from "Everlasting Summer"'
-              />
-            </a>
-            <a
-              href="img/zootopia_fan_art.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img src="img/zootopia_fan_art_prev.jpg" alt="Zootopia fan-art" />
-            </a>
-            <a
-              href="img/little_red_riding_hood.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img
-                src="img/little_red_riding_hood_prev.jpg"
-                alt="Little Red Riding Hood"
-              />
-            </a>
-            <a
-              href="img/everything_s_fine.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img
-                src="img/everything_s_fine_dev.jpg"
-                alt="Everything's fine"
-              />
-            </a>
-            <a
-              href="img/lucy_wilde.jpg"
-              class="lsb-preview"
-              data-lsb-group="gallery1"
-            >
-              <img src="img/lucy_wilde_prev.jpg" alt="Lucy Wilde" />
-            </a>
-          </div>
-        </div>
       </section>
-
-      <section class="example">
-        <div class="default-block">
-          <div class="content">
-            <h2>Alternative download URL</h2>
-            <p>
-              Can be handy, when you need to display preview version and let
-              user to get full-size image. Use data attribute
-              data-lsb-download-link
-            </p>
-            <div class="code">
-              &lt;script&gt;
-              <br />&nbsp;&nbsp;$(window).load(function()&nbsp;{
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;$.fn.lightspeedBox();
-              <br />&nbsp;&nbsp;}); <br />&lt;/script&gt;&nbsp;
-              <br />
-              <br />&lt;a&nbsp;
-              <br />&nbsp;&nbsp;href=&quot;img/mannequin.jpg&quot;
-              <br />&nbsp;&nbsp;class=&quot;lsb-preview&quot;
-              <br />&nbsp;&nbsp;data-lsb-group=&quot;gallery1&quot;
-              <br />&nbsp;&nbsp;data-lsb-download-link="img/mannequin_full.jpg"
-              <br />&gt;
-              <br />&nbsp;&nbsp;&lt;img&nbsp;src=&quot;img/mannequin_prev.jpg&quot;&nbsp;alt=&quot;Image&nbsp;Title&quot;&gt;
-              <br />&lt;/a&gt;
-            </div>
+      <!-- BLOG -->
+      <section class="blog" id="blog">
+          <h2>Blog</h2>
+          <div class="blog__content">
+              <div class="blog__item">
+                  <img src="./img/g1.jpg" alt="">
+                  <div class="blog__text">
+                      <h3><a href="#">Lorem Ipsum Passage,</a></h3>
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Read more..
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade myModal" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Housing</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                      </button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img src="./img/img2.jpg" alt="">
+                                      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                                  </div>                            
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="blog__item" >
+                  <img src="./img/g2.jpg" alt="">
+                  <div class="blog__text">
+                      <h3><a href="#">Lorem Ipsum Passage,</a></h3>
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Read more..
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade myModal" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Housing</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                      </button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img src="./img/img2.jpg" alt="">
+                                      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                                  </div>                            
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="blog__item">
+                  <img src="./img/g1.jpg" alt="">
+                  <div class="blog__text">
+                      <h3><a href="#">Lorem Ipsum Passage,</a></h3>
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Read more..
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade myModal" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Housing</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                      </button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img src="./img/img2.jpg" alt="">
+                                      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                                  </div>                            
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="accent-block">
-          <div class="content showcase single-image">
-            <a
-              href="img/mannequin.jpg"
-              class="lsb-preview single"
-              data-lsb-download-link="img/mannequin_full.jpg"
-            >
-              <img
-                src="img/mannequin_prev.jpg"
-                alt="A Girly Character concept"
-              />
-            </a>
-          </div>
-        </div>
       </section>
-
-      <section class="example">
-        <div class="default-block">
-          <div class="content">
-            <h2>No image</h2>
-            <p>That's what happens if full size image hasn't found.</p>
+      <!-- MORE -->
+      <section class="more">
+          <div class="more__video">
+              <a class="video" title="Test title" href="https://www.youtube.com/watch?v=mMjNGpX1yoE">
+                  <i class="fa fa-play-circle"></i>
+              </a>
           </div>
-        </div>
-        <div class="accent-block">
-          <div class="content showcase single-image">
-            <a href="img/girly_character_.jpg" class="lsb-preview single">
-              <img
-                src="img/girly_character_prev.jpg"
-                alt="A Girly Character concept"
-              />
-            </a>
+          <div class="more__text">
+              <h3>Get More</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut minim veniam, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                  Read more..
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade myModal" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel">Housing</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="./img/img2.jpg" alt="">
+                              <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                          </div>                            
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
       </section>
-
-      <section class="example">
-        <div class="default-block">
-          <div class="content">
-            <h2>Settings</h2>
-            <p>
-              Plugin supports settings through a simple JavaScript object passed
-              as a parameter.
-            </p>
-            <div class="settings">
-              <div class="row">
-                <div class="cell name">Name</div>
-                <div class="cell default">Default</div>
-                <div class="cell description">Description</div>
+      <!-- PORTFOLIO -->
+      <section class="portfolio" id="portfolio">
+          <h2 >Portfolio</h2>
+          <div class="portfolio__content">
+              <div class="portfolio__item">
+                  <a href="./img/img1.jpg" class="lsb-preview">
+                      <img src="./img/img1.jpg" alt="">
+                      <div class="portfolio__text">
+                          <div class="portfolio__detail">
+                              <h3>gallery</h3>
+                              <p>Lorem Ipsum is simply dummy</p>
+                          </div>
+                      </div>
+                  </a>
               </div>
-              <div class="row">
-                <div class="cell name">showImageTitle</div>
-                <div class="cell default">true</div>
-                <div class="cell description">
-                  Show image title (from alt attribute).
-                </div>
+              <div class="portfolio__item">
+                  <a href="./img/img2.jpg" class="lsb-preview" data-lsb-group="header">
+                      <img src="./img/img2.jpg" alt="">
+                      <div class="portfolio__text">
+                          <div class="portfolio__detail">
+                              <h3>gallery</h3>
+                              <p>Lorem Ipsum is simply dummy</p>
+                          </div>
+                      </div>
+                  </a>
               </div>
-              <div class="row">
-                <div class="cell name">showImageCount</div>
-                <div class="cell default">true</div>
-                <div class="cell description">
-                  Number of images in group and number of current image (doesn't
-                  show up when single image displayed).
-                </div>
+              <div class="portfolio__item">
+                  <a href="./img/img3.jpg" class="lsb-preview" >
+                      <img src="./img/img3.jpg" alt="">
+                      <div class="portfolio__text">
+                          <div class="portfolio__detail">
+                              <h3>gallery</h3>
+                              <p>Lorem Ipsum is simply dummy</p>
+                          </div>
+                      </div>
+                  </a>
               </div>
-              <div class="row">
-                <div class="cell name">showDownloadButton</div>
-                <div class="cell default">true</div>
-                <div class="cell description">
-                  Show download full-size image button.
-                </div>
+              <div class="portfolio__item">
+                  <a href="./img/img4.jpg" class="lsb-preview" >
+                      <img src="./img/img4.jpg" alt="">
+                      <div class="portfolio__text">
+                          <div class="portfolio__detail">
+                              <h3>gallery</h3>
+                              <p>Lorem Ipsum is simply dummy</p>
+                          </div>
+                      </div>
+                  </a>
               </div>
-              <div class="row">
-                <div class="cell name">showAutoPlayButton</div>
-                <div class="cell default">true</div>
-                <div class="cell description">
-                  Slideshow button (doesn't show up when single image
-                  displayed).
-                </div>
+              <div class="portfolio__item">
+                  <a href="./img/img5.jpg" class="lsb-preview" >
+                      <img src="./img/img5.jpg" alt="">
+                      <div class="portfolio__text">
+                          <div class="portfolio__detail">
+                              <h3>gallery</h3>
+                              <p>Lorem Ipsum is simply dummy</p>
+                          </div>
+                      </div>
+                  </a>
               </div>
-              <div class="row">
-                <div class="cell name">autoPlayback</div>
-                <div class="cell default">false</div>
-                <div class="cell description">
-                  Slideshow enabled, when lightbox first time open.
-                </div>
+              <div class="portfolio__item">
+                  <a href="./img/img6.jpg" class="lsb-preview" >
+                      <img src="./img/img6.jpg" alt="">
+                      <div class="portfolio__text">
+                          <div class="portfolio__detail">
+                              <h3>gallery</h3>
+                              <p>Lorem Ipsum is simply dummy</p>
+                          </div>
+                      </div>
+                  </a>
               </div>
-              <div class="row">
-                <div class="cell name">playbackTiming</div>
-                <div class="cell default">3500</div>
-                <div class="cell description">Slideshow delay (msec).</div>
-              </div>
-              <div class="row">
-                <div class="cell name">zIndex</div>
-                <div class="cell default">30</div>
-                <div class="cell description">
-                  z-index property of lightbox (bump it higher if it shows up
-                  beneath the other elements).
-                </div>
-              </div>
-              <div class="row">
-                <div class="cell name">locale</div>
-                <div class="cell default">
-                  { nextButton: 'Next image',
-                  <br />
-                  prevButton: 'Previous image', <br />
-                  closeButton: 'Close', <br />
-                  downloadButton: 'Download image', <br />
-                  noImageFound: 'Sorry, no image found.', <br />
-                  downloadButton: 'Download image', <br />
-                  autoplayButton: 'Enable autoplay' <br />
-                  }
-                </div>
-                <div class="cell description">
-                  Localization settings in JavaScript object (see below)
-                </div>
-              </div>
-            </div>
-
-            <div class="code">
-              // Example of using settings
-              <br />&lt;script&gt;
-              <br />&nbsp;&nbsp;$(window).load(function()&nbsp;{
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;$.fn.lightspeedBox({
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showDownloadButton:&nbsp;false,
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showAutoPlayButton:&nbsp;false,
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showImageCount:&nbsp;false
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;}); <br />&nbsp;&nbsp;});
-              <br />&lt;/script&gt;
-            </div>
+              
           </div>
-        </div>
       </section>
-
-      <section class="example">
-        <div class="default-block">
-          <div class="content">
-            <h2>License</h2>
-            <p>
-              The MIT public license © 2016
-              <a href="https://github.com/AlexEmashev">Alexander Emashev</a>.
-            </p>
+      <!-- SUBSCRIBE -->
+      <section class="subcribe">
+          <h2>Subcribe</h2>
+          <div class="subcribe__content">
+              <p>consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+              <input type="email" placeholder="Email">
+              <button>Click</button>
           </div>
-        </div>
       </section>
-    </article>
-    <footer>
-      Images by
-      <a href="http://cgrey.deviantart.com/gallery/">Alexander Emashev</a>
-      distributed under general public license.
-    </footer>
+  
+      <!-- AGENT -->
+      <section class="agents" >
+          <h2 id="agents">Our Agents</h2>
+          <div class="agents__content">
+              <div class="agents__item">
+                  <div class="agents__item--content">
+                      <img src="./img/t1.jpg" alt="">
+                      <div class="agents__text">
+                          <h3>KAT WALLY</h3>
+                          <p>Lorem Ipsum</p>
+                          <div class="agent__social">
+                              <i class="fab fa-facebook-f"></i>
+                              <i class="fab fa-twitter"></i>
+                              <i class="fa fa-rss"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="agents__item">
+                  <div class="agents__item--content">
+                      <img src="./img/t4.jpg" alt="">
+                      <div class="agents__text">
+                          <h3>JOHN MAX</h3>
+                          <p>Lorem Ipsum</p>
+                          <div class="agent__social">
+                              <i class="fab fa-facebook-f"></i>
+                              <i class="fab fa-twitter"></i>
+                              <i class="fa fa-rss"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="agents__item">
+                  <div class="agents__item--content">
+                      <img src="./img/t2.jpg" alt="">
+                      <div class="agents__text">
+                          <h3>ROY KENT</h3>
+                          <p>Lorem Ipsum</p>
+                          <div class="agent__social">
+                              <i class="fab fa-facebook-f"></i>
+                              <i class="fab fa-twitter"></i>
+                              <i class="fa fa-rss"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="agents__item">
+                  <div class="agents__item--content">
+                      <img src="./img/t3.jpg" alt="">
+                      <div class="agents__text">
+                          <h3>JOY IDSON</h3>
+                          <p>Lorem Ipsum</p>
+                          <div class="agent__social">
+                              <i class="fab fa-facebook-f"></i>
+                              <i class="fab fa-twitter"></i>
+                              <i class="fa fa-rss"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+      </section>
+      <!-- MAP -->
+      <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7491.321888332529!2d94.92568900000002!3d20.148188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x229dbaae31b864b9!2sZarmani!5e0!3m2!1svi!2sin!4v1593696694944!5m2!1svi!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <!-- CONTACT -->
+      <section class="contact" >
+          <h2 id="contact">Contact Us</h2>
+          <div class="contact__content">
+              <form action="#">
+                  <input type="text" placeholder="Name">
+                  <input type="text" placeholder="Last name">
+                  <input type="email" placeholder="Email">
+                  <input type="phone" placeholder="Phone">
+                  <textarea placeholder="Message"></textarea>
+                  <button type="submit">Submit</button>
+              </form>
+              
+          </div>
+      </section>
+      <!-- FOOTER -->
+      <footer>
+          <div class="footer__content">
+              <p>
+                  © 2017 Housing. All Rights Reserved | Design by <a href="#">W3layouts</a> 
+              </p>
+              <div class="footer__social">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fa fa-rss"></i>
+                  <i class="fa fa-smile-wink"></i>
+              </div>
+          </div>
+          
+      </footer>
+      <div class="demo">
+          <a href="http://alexemashev.github.io/lsb-lightbox/img/a_cat_and_a_balloon.jpg" class="lsb-preview">
+              <img src="http://alexemashev.github.io/lsb-lightbox/img/a_cat_and_a_balloon.jpg" alt="Image Title">
+          </a>
+      </div>
+  
+  
+      <!-- BACK TO TOP -->
+      <!-- all your content here --> 
+      <a href="#" class="cd-top text-replace js-cd-top">
+          <i class="fa fa-angle-up"></i>
+      </a>
+      <!-- JQUERY -->
+      <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      ></script>
+      <!-- OWL CAROUSEL -->
+      <script src="./js/owl.carousel.js"></script>
+      <script>
+          $('.owl-carousel').owlCarousel({
+          ltr:true,
+          loop:true,
+          margin:10,
+          nav:true,
+          navText: ["<img src='../img/left-arrow.png'>","<img src='../img/right-arrow.png'>"],
+          autoplay:true,
+          autoplayTimeout:2000,
+          animateOut: 'fadeOut',
+          animateIn: 'flipInX',
+          autoplayHoverPause:true,
+          responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+          }
+          })
+      </script>
+      <!-- <script>
+          $($OwlCarousel).trigger("refresh.owl.carousel");
+      </script> -->
+      <!-- COUTER UP TO NUMBER -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+      <script src="./js/jquery.countup.min.js"></script>
+     
+      <script>
+          $('.counter').countUp({
+          'time': 2000,
+          'delay': 10,
+          });
+      </script>
+      <!-- BOOTSTRAP4 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+      <!-- mfp popup -->
+      <script src="./js/jquery.magnific-popup.min.js"></script>
+      <script>
+          $('.video').magnificPopup({
+          type: 'iframe',
+          iframe: {
+              markup: '<div class="mfp-iframe-scaler">'+
+                          '<div class="mfp-close"></div>'+
+                          '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                          '<div class="mfp-title">Some caption</div>'+
+                      '</div>'
+          },
+          callbacks: {
+              markupParse: function(template, values, item) {
+              values.title = item.el.attr('title');
+              }
+          }
+          });
+      </script>
+      <script src="./js/main.js"></script>
+      <script src="./js/util.js"></script>
+      <!-- LIGHTSPEEDBOX -->
+      <script src="./js/lsb.js"></script>
+      <script>
+          $(window).on('load', function() { 
+              $.fn.lightspeedBox();
+          });
+      </script>
+      <!-- SMOOTH SCROLL -->
+      <!-- <script >
+          $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 1000);
+      return false;
+      });
+      </script> -->
   </body>
 </html>
